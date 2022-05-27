@@ -1,0 +1,382 @@
+/* CSS Document */
+
+/*===============reset===================*/
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+a,
+span,
+input,
+div,
+section,
+article,
+aside,
+figure,
+figcaption,
+dl,
+dt,
+dd,
+p,
+img {
+    padding: 0;
+    margin: 0;
+}
+
+header,
+footer,
+nav,
+aside,
+action,
+article,
+figure,
+figcaption {
+    display: block;
+}
+
+section{
+    width: 100%;
+}
+
+
+
+nav{
+    width: 100%;
+    height: 373px;
+    
+}
+.n_d0{
+    background: url(../images/list1/planning_banner.png) no-repeat center center;
+    height: 373px;
+    padding-top: 85px;
+}
+
+
+
+
+
+
+article{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: rgb(247, 250, 253);
+}
+.a_d0 .p000{
+    font-size: 30px;
+    text-align: center;
+    line-height: 80px;
+    color: rgb(80, 80, 80);
+}
+.a_d0 .p001{
+    font-size: 14px;
+    text-align: center;
+    line-height: 40px;
+}
+.a_d0 .d01{
+    text-align: center;
+}
+.a_d0 .d01 p{
+    margin-top: 150px;
+}
+.a_d0 .d010{
+    width: 212px;
+    height: 209px;
+    background-image: url(../images/list1/ps11.png);
+    display: inline-block;
+    margin: 30px; 
+}
+.a_d0 .d011{
+    width: 210px;
+    height: 211px;
+    background-image: url(../images/list1/ps12.png);
+    display: inline-block;
+    margin: 30px;
+}
+.a_d0 .d012{
+    width: 210px;
+    height: 210px;
+    background-image: url(../images/list1/ps13.png);
+    display: inline-block;
+    margin: 30px;
+}
+.a_d0 .d013{
+    width: 211px;
+    height: 210px;
+    background-image: url(../images/list1/ps14.png);
+    display: inline-block;
+    margin: 30px;
+}
+.a_d0 .d014{
+    width: 209px;
+    height: 211px;
+    background-image: url(../images/list1/ps15.png);
+    display: inline-block;
+    margin: 30px;
+}
+
+.a_d1{
+    width: 1519px;
+    height: 560px;
+    background-color: white;
+    position: relative;
+}
+.a_d1 .p010{
+    font-size: 30px;
+    text-align: center;
+    line-height: 80px;
+    color: rgb(80, 80, 80);
+}
+.a_d1 .p011{
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.a_d2{
+    width: 1519px;
+    height: 350px;
+    position: relative;
+}
+.a_d2 .p20{
+    font-size: 30px;
+    text-align: center;
+    line-height: 80px;
+    color: rgb(80, 80, 80);
+    margin-top: 10px;
+}
+.a_d2 .d200{
+    width: 368px;
+    height: 215px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 69px;
+}
+.a_d2 .p2000{
+    font-size: 18px;
+    line-height: 40px;
+}
+.a_d2 .d2000{
+    display: inline-block;
+    font-size: 12px;
+    color: rgb(235, 152, 0);
+    border-right: 1px solid rgb(175, 0, 175);
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.a_d2 .p2001{
+    display: inline-block;
+    font-size: 12px;
+}
+
+.a_d3{
+    width: 1519px;
+    /* height: 562px; */
+    background-color: white;
+    position: relative;
+}
+.a_d3 .p00{
+    font-size: 30px;
+    text-align: center;
+    line-height: 80px;
+    color: rgb(80, 80, 80);
+    margin-top: 30px;
+}
+.a_d3 .p01{
+    font-size: 12px;
+    text-align: center;
+}
+
+.a_d4{
+    width: 1519px;
+    position: relative;
+}
+.a_d4 .p00{
+    font-size: 30px;
+    text-align: center;
+    line-height: 80px;
+    color: rgb(80, 80, 80);
+    margin-top: 10px;
+}
+.a_d4 .dl0 .dt00{
+    width: 320px;
+    height: 394px;
+    margin-top: 92px;
+    margin-left: 110px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    border: 1px solid gray;
+    float: left;
+}
+
+
+.a_d4 .dl0 .dd00{/*定位*/
+    text-align: center;
+    line-height: 36px;
+    color: white;
+    width: 320px;
+    height: 72px;
+    border: 1px solid gray;
+    background-color: rgb(62,112,180);
+    position: absolute;
+    top: 109px;
+    left: 110px;
+}
+.a_d4 .dl0 .dd01{/*定位*/
+    text-align: center;
+    line-height: 36px;
+    color: white;
+    width: 320px;
+    height: 72px;
+    border: 1px solid gray;
+    background-color: rgb(62,112,180);
+    position: absolute;
+    top: 109px;
+    left: 592px;
+}
+.a_d4 .dl0 .dd02{/*定位*/
+    text-align: center;
+    line-height: 36px;
+    color: white;
+    width: 320px;
+    height: 72px;
+    border: 1px solid gray;
+    background-color: rgb(62,112,180);
+    position: absolute;
+    top: 109px;
+    left: 1074px;
+}
+
+
+.a_d4 .dl0 .dt00 .d000{/*定位*/
+    width: 320px;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+    top: 477px;
+    left: 111px;
+    opacity: .6;
+    filter: alpha(opacity=60);
+    text-align: center;
+    color: white;
+    line-height: 45px;
+    font-size: 14px;
+    z-index: -1;
+}
+.a_d4 .dl0 .dt00 .d100{/*定位*/
+    width: 321px;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+    top: 477px;
+    left: 593px;
+    opacity: .6;
+    filter: alpha(opacity=60);
+    text-align: center;
+    color: white;
+    line-height: 45px;
+    font-size: 14px;
+    z-index: -1;
+}
+.a_d4 .dl0 .dt00 .d200{/*定位*/
+    width: 320px;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+    top: 477px;
+    left: 1075px;
+    opacity: .6;
+    filter: alpha(opacity=60);
+    text-align: center;
+    color: white;
+    line-height: 45px;
+    font-size: 14px;
+    z-index: -1;
+}
+
+
+.a_d4 .dt00:hover .d000,.a_d4 .dt00:hover .d100,.a_d4 .dt00:hover .d200{
+    z-index: 1;
+}
+
+
+.a_d4 .dt00 .i001{/*定位*/
+    position: absolute;
+    top: 200px;
+    left: 290px;
+    z-index: -1;
+}
+.a_d4 .dt00 .i101{/*定位*/
+    position: absolute;
+    top: 200px;
+    left: 772px;
+    z-index: -1;
+}
+.a_d4 .dt00 .i201{/*定位*/
+    position: absolute;
+    top: 200px;
+    left: 1254px;
+    z-index: -1;
+}
+
+.a_d4 .dt00:hover .i001,.a_d4 .dt00:hover .i101,.a_d4 .dt00:hover .i201{
+    z-index: 1;
+}
+
+
+
+.a_d5{
+    width: 1519px;
+    position: relative;
+    background-color: white;
+}
+.a_d5 .p00{
+    font-size: 30px;
+    text-align: center;
+    line-height: 120px;
+    color: rgb(80, 80, 80);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.a_d6 .p00{
+    font-size: 30px;
+    text-align: center;
+    line-height: 120px;
+    color: rgb(80, 80, 80);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.a_d6 .d0{
+    width: 1168px;
+    height: 307px;
+    background-color: rgba(255, 255, 255, 0.993);
+    margin-bottom: 100px;
+}
+.a_d6 .d01{
+    border-right: 1px dashed rgb(202, 202, 202);
+}
+.a_d6 .d00,.a_d6 .d01{
+    display: inline-block;
+    width: 227px;
+    height: 150px;
+    border-bottom: 1px dashed rgb(202, 202, 202);
+    overflow: hidden;
+}
+.a_d6 .d00 img,.a_d6 .d01 img{
+    position: relative;
+    top: -150px;
+    transition: all 0.3s linear 0s;
+}
+.a_d6 .d00 img:hover,.a_d6 .d01 img:hover{
+    top: 0;
+}

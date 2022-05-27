@@ -1,0 +1,114 @@
+/* CSS Document */
+
+/*===============reset===================*/
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+a,
+span,
+input,
+div,
+section,
+article,
+aside,
+figure,
+figcaption,
+dl,
+dt,
+dd,
+p,
+img {
+    padding: 0;
+    margin: 0;
+}
+
+header,
+footer,
+nav,
+aside,
+action,
+article,
+figure,
+figcaption {
+    display: block;
+}
+
+section{
+    width: 100%;
+}
+
+
+
+
+nav{
+    width: 100%;
+    height: 374px;
+}
+.n_d0{
+    background: url(../images/list4/planning_banner.png) no-repeat center center;
+    height:374px;
+    padding-top: 85px;
+}
+
+
+
+
+article{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+.a_d0{
+    width: 70%;
+    height: 200px;
+    background-image: url(../images/list4/Process_con_one[1].png);
+    margin-left: -140px;
+}
+.a_d1{
+    width: 70%;
+    height: 150px;
+    background-image: url(../images/list4/Process_con_two[1].png);
+    margin-left: -140px;
+}
+.a_d2{
+    width: 70%;
+    height: 150px;
+    background-image: url(../images/list4/Process_con_three[1].png);
+    margin-left: -140px;
+}
+.a_d3{
+    width: 70%;
+    height: 150px;
+    background-image: url(../images/list4/Process_con_four[1].png);
+    margin-left: -140px;
+}
+.a_d4{
+    width: 70%;
+    height: 200px;
+    background-image: url(../images/list4/Process_con_five[1].png);
+    margin-left: -140px;
+}
+.a_d5{
+    width: 70%;
+    height: 150px;
+    background-image: url(../images/list4/Process_con_six[1].png);
+    margin-left: -140px;
+}
+article p{
+    margin-left: 120px;
+    margin-top: 20px;
+    font-size: 12px;
+}
+.a_d0 .p00,.a_d1 .p00,.a_d2 .p00,.a_d3 .p00,.a_d4 .p00,.a_d5 .p00{
+    padding-top: 38px;
+}

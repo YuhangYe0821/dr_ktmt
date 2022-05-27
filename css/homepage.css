@@ -1,0 +1,281 @@
+/* CSS Document */
+
+/*===============reset===================*/
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+a,
+span,
+input,
+div,
+section,
+article,
+aside,
+figure,
+figcaption,
+dl,
+dt,
+dd,
+p,
+img {
+    padding: 0;
+    margin: 0;
+}
+
+header,
+footer,
+nav,
+aside,
+article,
+figure,
+figcaption {
+    display: block;
+}
+
+section{
+    width: 100%;
+    height: 2688px;
+}
+
+nav{
+    width: 100%;
+    height: 500px;
+}
+nav .n_d0{
+    background: url(../images/index/banner1.jpg) no-repeat center center;
+    height: 482px;
+    padding-top: 85px;
+}
+
+
+
+
+
+article{
+    width: 100%;
+    height: 1936px;
+    /* position: relative; */
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: rgb(247, 250, 253);
+}
+
+.a_d0{
+    width: 100%;
+    text-align: center;
+}
+/* .a_d0 .p0{
+    margin-top: -10px;
+    display:inline-block;
+    font-size: 64px;
+    color: rgb(0, 149, 255);
+} */
+.a_d0 .p1{
+    display:inline-block;
+    font-size: 32px;
+    color: rgb(0, 149, 255);
+}
+.a_d0 .p2{
+    color: gray;
+    text-indent: 2em;
+    font-size: 15px;
+}
+
+.a_d1{
+    height: 580px;
+}
+.a_d1 .dl10{
+    margin-right: 30px;
+    margin-left: 30px;
+    display:inline-block;
+    height: 460px;
+    border-bottom: 4px solid rgb(202, 202, 202);
+}
+.a_d1 .dl10 .sp0{
+    position: absolute;
+    z-index: -1;
+    font-size: 24px;
+    color: rgb(0, 149, 255);
+    margin-left: 120px;
+    margin-top: -30px;
+    transition:  all 0.3s linear 0s;
+}
+.a_d1 .dl10 .sp1{
+    position: absolute;
+    z-index: -1;
+    font-size: 24px;
+    color: rgb(0, 149, 255);
+    margin-left: 140px;
+    margin-top: -30px;
+    transition:  all 0.3s linear 0s;
+}
+
+.a_d1 .dt100:hover .sp0,.a_d1 .dt100:hover .sp1{
+    margin-top: 50px;
+    z-index: 1;
+}
+.a_d1 .dt100 .img1{
+    position: absolute;
+    z-index: -1;
+    margin-left: -60px;
+    margin-top: 100px;
+    transition:  all 0.3s linear 0s;
+}
+.a_d1 .dt100:hover .img1{
+    margin-left: 150px;
+    z-index: 1;
+}
+.a_d1 .dt100 .img2{
+    position: absolute;
+    z-index: -1;
+    margin-left: 60px;
+    margin-top: 123px;
+    transition:  all 0.3s linear 0s;
+}
+.a_d1 .dt100:hover .img2,.a_d1_d1:hover .img2,.a_d1_d2:hover .img2{
+    margin-left: -205px;
+    z-index: 1;
+}
+.a_d1 .dl10 .dt100::before {
+    content: "";
+    width: 377px;
+    height: 280px;
+    position: absolute;
+    background: #000;
+    opacity: .6;
+    filter: alpha(opacity=60);
+    /* filter:alpha()与opacity都是用来设置透明度的，区别就在于兼容性的问题，opacity支持高版本的浏览器，IE8以上不包含IE8. */
+    display: none;
+}
+
+.a_d1 .dl10 .dt100:hover::before {
+    display: block;
+}
+
+.a_d1 p{
+    text-align: center;
+}
+.a_d1 .p0{
+    font-size: 24px;
+    margin-top: 7px;
+    margin-bottom: 13px;
+}
+.a_d1 .p1{
+    font-size: 14px;
+    margin-top: 5px;
+}
+.a_d1 .d0,.a_d1 .d1{
+    width: 136px;
+    height: 30px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 30px;
+    border-radius: 5px;
+    display:inline-block;
+    margin-top: 25px;
+}
+.a_d1 .d0{
+    border: 1px solid rgb(0, 149, 255);
+    background-color: rgb(0, 149, 255);
+}
+.a_d1 .d1{
+    border: 1px solid gray;
+}
+
+.a_d2{
+    width: 1519px;
+    height: 550px;
+    background-color: white;
+    margin-top: -100px;
+}
+.a_d2 .p0{
+    text-align: center;
+    font-size: 36px;
+    margin-top: 30px;
+}
+.a_d2 .p1{
+    font-size: 32px;
+    margin-top: 25px;
+    text-align: center;
+    color: rgb(0, 149, 255);
+}
+.a_d2 .p2{
+    color: rgb(0, 149, 255);
+    margin-top: 15px;
+    text-align: center;
+    font-size: 14px;
+}
+.a_d2 .p3{
+    text-align: center;
+    margin-top: 45px;
+    font-size: 14px;
+}
+.a_d2 .p4{
+    width: 200px;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: -30px;
+    font-size: 14px;
+}
+.a_d2 .d0{
+    width: 131px;
+    height: 131px;
+    background-image: url(../images/index/sbj.png);
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 250px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+.a_d3{
+    height: 704.6px;
+}
+.a_d3 .p0{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 36px;
+}
+.a_d3 .d0{
+    width: 1168px;
+    height: 460px;
+    background-color: rgba(255, 255, 255, 0.993);
+    margin-top: 40px;
+}
+.a_d3 .d00,.a_d3 .d01{
+    display: inline-block;
+    width: 227px;
+    height: 150px;
+    border-bottom: 1px dashed rgb(202, 202, 202);
+    overflow: hidden;
+}
+.a_d3 .d00 img,.a_d3 .d01 img{
+    position: relative;
+    top: -150px;
+    transition: all 0.3s linear 0s;
+}
+.a_d3 .d00 img:hover,.a_d3 .d01 img:hover{
+    top: 0;
+}
+.a_d3 .d01{
+    border-right: 1px dashed rgb(202, 202, 202);
+}
+.a_d3 .d1{
+    width: 200px;
+    height: 50px;
+    border: 1px solid rgb(202, 202, 202);
+    text-align: center;
+    line-height: 50px;
+    font-size: 14px;
+    margin: 35px auto;
+}
